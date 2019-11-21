@@ -10,7 +10,9 @@ package http
 import (
 	"context"
 	"errors"
+	"net"
 	"net/http"
+	"time"
 
 	"go.opencensus.io/plugin/ochttp"
 	"golang.org/x/oauth2"
